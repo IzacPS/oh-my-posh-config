@@ -1,5 +1,9 @@
 # oh-my-posh-config
 ```
+Install-Module -Name Terminal-Icons -Repository PSGallery
+```
+
+```
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/emodipt.omp.json" | Invoke-Expression
 Import-Module -Name Terminal-Icons
 ```
